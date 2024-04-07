@@ -313,7 +313,7 @@ def get_user_id(server, user = None, access_token = None):
 def get_timeline(server, access_token, max):
     """Get all post in the user's home timeline"""
 
-    url = f"https://{server}/api/v1/timelines/home"
+    url = f"https://{server}/api/v1/timelines/public"
 
     try:
     
